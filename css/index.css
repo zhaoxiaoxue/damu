@@ -1,0 +1,289 @@
+
+.tap{
+    color:#28b1b8;
+}
+/*-----------点击触发效果------------*/
+html{
+    background: #f7f7f7;
+}
+header{
+    width: 100%;
+    height:2.85rem;
+    color:#666666;
+    line-height: 2.85rem;
+    border-bottom:1px solid #ebebeb;
+    background: #fff;
+    position: fixed;
+    z-index:8888;
+    top:0;
+}
+header img{
+    width: 8.2rem;
+    height:2.15rem;
+    margin-left: 1.3rem;
+    margin-top: 0.35rem;
+    float: left;
+}
+.paixu,.shaixuan{
+    float: right;
+    display:inline-block;
+    margin-right: 1.3rem;
+}
+.paixu i,.shaixuan i{
+    font-size: 1.5rem;
+    color:#808080;
+}
+/*----------------头部结束-----------------*/
+.main{
+    height:100%;
+    width:100%;
+    margin-top:2.85rem;
+    padding-bottom: 4rem;
+}
+#wrapper {
+    position:absolute; z-index:1;
+    top:3rem; bottom:3rem; left:0;
+    width:100%;
+    /*background:#555;*/
+    overflow:auto;
+}
+
+#scroller {
+    position:relative;
+    /*	-webkit-touch-callout:none;*/
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+
+    float:left;
+    width:100%;
+    padding:0;
+}
+.news{
+    width:94%;
+    padding-left: 3%;
+    padding-top: 0.1rem;
+    padding-right: 3%;
+}
+.newsx{
+    /*height:4rem;*/
+    background: #fff;
+    margin-top: 0.7rem;
+    border-radius: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+}
+.newsx:last-child{
+    margin-bottom: 0.7rem;
+}
+.lian{
+    display: block;
+}
+.nimg{
+    width: 14%;
+    display:inline-block;
+    float: left;
+}
+.nimg img{
+    display:inline-block;
+    margin-top: 0.5rem;
+    width: 2.65rem;
+    height:2.65rem;
+
+}
+.con{
+    width: 80%;
+    display:inline-block;
+    float: left;
+}
+.contt,.use,.zhong,.com{
+    display:inline-block;
+}
+.contt{
+    font-size: 0.93rem;
+    color:#4c4c4c;
+    float: left;
+}
+.use,.com{
+    font-size: 0.65rem;
+    color:#b2b2b2;
+    float: right;
+    margin-left: 0.5rem;
+}
+.zhong{
+    float: right;
+    margin-left: 0.5rem;
+    height:1rem;
+    width: 0.05rem;
+    background: #b2b2b2;
+}
+.conp img{
+    width: 3.3rem;
+    height:0.58rem;
+}
+.conp span{
+    color:#737373;
+    font-size: 0.65rem;
+}
+.conx{
+    color:#8c8c8c;
+    font-size: 0.65rem;
+}
+/*---------------------主体部分结束-------------------------*/
+footer{
+    width:100%;
+    height:3.2rem;
+    position: fixed;
+    bottom:0;
+    left:0;
+    z-index: 8888;
+    background: #fff;
+    border-top:1px solid #ebebeb;
+}
+footer .flian{
+    height:100%;
+    width: 32.5%;
+    display:inline-block;
+    text-align: center;
+    border:none;
+}
+.ff{
+    height:100%;
+}
+.ff span{
+    height:50%;
+    display:block;
+    font-size: 0.72rem;
+}
+
+/*-----------------脚部结束-----------------------*/
+.zhezhao{
+    background: #000 none repeat scroll 0 0;
+    height: 100%;
+    opacity: 0.4;
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 99999;
+    display: none;
+}
+/*.zhezhao{*/
+    /*height: 100%;*/
+    /*position: fixed;*/
+    /*top:0;*/
+    /*width: 100%;*/
+    /*z-index: 9999;*/
+    /*display:none;*/
+/*}*/
+/*.blur{*/
+    /*width:100%;*/
+    /*height: 100%;*/
+    /*-webkit-filter: blur(8px);*/
+
+    /*-moz-filter: blur(8px);*/
+
+    /*-o-filter: blur(8px);*/
+
+    /*-ms-filter: blur(8px);*/
+
+    /*filter: blur(8px);*/
+    /*filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=10, MakeShadow=false);*/
+/*}*/
+/*-------------------遮罩结束------------------------*/
+.sx{
+    position:fixed;
+    bottom:0;
+    left:0;
+    z-index: 99999;
+    width: 100%;
+    background: #f7f7f7;
+    display:none;
+}
+.cz{
+    padding-left: 3%;
+    padding-right: 3%;
+    height:2.85rem;
+    line-height: 2.85rem;
+    background: #03d7e2;
+    color:#fff;
+    font-size: 0.93rem;
+}
+.quxiao,.chongz,.que{
+    height:100%;
+    display:inline-block;
+}
+.quxiao{
+    float: left;
+}
+.chongz,.que{
+    float: right;
+    padding-left: 1.4rem;
+}
+.czcon{
+    color:#4c4c4c;
+}
+.czt{
+    padding-left: 3%;
+    height:2.3rem;
+    line-height: 2.3rem;
+    font-size: 0.93rem;
+    color:#4c4c4c;
+}
+.czm{
+    background: #fff;
+}
+.czmm{
+    display: inline-block;
+    height:2.3rem;
+    width: 23%;
+    line-height: 2.3rem;
+    text-align: center;
+}
+.xx{
+    display: inline-block;
+    background: #e0e0e0;
+    width: 0.1rem;
+    height:0.8rem;
+    margin-top: 0.65rem;
+}
+.jiek{
+    padding-left: 3%;
+    width: 60%;
+    color:#999999;
+}
+.danw{
+    text-align: right;
+    display: inline-block;
+    padding-right: 3%;
+    width: 25%;
+}
+/*---------------筛选结束------------------*/
+.px{
+    position:fixed;
+    bottom:0;
+    left:0;
+    z-index: 99999;
+    width: 100%;
+    background: #fff;
+    color:#4c4c4c;
+    display:none;
+}
+.pcz{
+    height:2.85rem;
+    line-height: 2.85rem;
+    background: #03d7e2;
+    text-align: center;
+    color:#fff;
+}
+.pxx{
+    display: inline-block;
+    position: absolute;
+    right: 3%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.pcon{
+    height:2.85rem;
+    line-height: 2.85rem;
+    padding-left: 3%;
+}
+/*-------------排序结束------------------*/

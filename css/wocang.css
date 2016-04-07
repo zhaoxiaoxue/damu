@@ -1,0 +1,122 @@
+html{
+    background: #f7f7f7;
+}
+header{
+     width: 100%;
+     background: #fff;
+     height:2.85rem;
+     color:#666666;
+     text-align: center;
+     line-height: 2.85rem;
+     border-bottom:1px solid #ebebeb;
+     position: fixed;
+     z-index:8888;
+     top:0;
+ }
+.wlian{
+    height: 100%;
+    display: inline-block;
+    font-size: 0.93rem;
+    color: #a6a6a6;
+    position: absolute;
+    left: 1rem;
+    top: 0;
+}
+header .ztop{
+    color: #a6a6a6;
+}
+header span{
+    text-align: center;
+    font-size: 1rem;
+}
+/*-----------------------------*/
+.main{
+    width: 100%;
+    margin-top:2.85rem ;
+    padding-bottom: 4rem;
+}
+
+.min{
+    width:6.2rem;
+    margin:7.85rem auto;
+    /*display: none;*/
+}
+.minc{
+    margin:0 auto;
+    text-align: center;
+    color:#808080;
+}
+.min img{
+    width: 6.2rem;
+    height:4.85rem;
+}
+
+.news{
+    width:94%;
+    padding-left: 3%;
+    padding-top: 0.1rem;
+    padding-right: 3%;
+    display: none;
+}
+.newsx{
+    /*height:4rem;*/
+    background: #fff;
+    margin-top: 0.7rem;
+    border-radius: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+}
+.lian{
+    display: block;
+}
+.nimg{
+    width: 14%;
+    display:inline-block;
+    float: left;
+}
+.nimg img{
+    display:inline-block;
+    margin-top: 0.5rem;
+    width: 2.65rem;
+    height:2.65rem;
+
+}
+.con{
+    width: 80%;
+    display:inline-block;
+    float: left;
+}
+.contt,.use,.zhong,.com{
+    display:inline-block;
+}
+.contt{
+    font-size: 0.93rem;
+    color:#4c4c4c;
+    float: left;
+}
+.use,.com{
+    font-size: 0.65rem;
+    color:#b2b2b2;
+    float: right;
+    margin-left: 0.5rem;
+}
+.zhong{
+    float: right;
+    margin-left: 0.5rem;
+    height:1rem;
+    width: 0.05rem;
+    background: #b2b2b2;
+}
+.conp img{
+    width: 0.5rem;
+    height:0.5rem;
+}
+.conp span{
+    color:#737373;
+    font-size: 0.65rem;
+}
+.conx{
+    color:#8c8c8c;
+    font-size: 0.65rem;
+}
