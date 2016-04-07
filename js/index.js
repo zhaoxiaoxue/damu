@@ -11,6 +11,8 @@ $(function(){
     $('.pcon').tap(function(){
         $('.pcon').removeClass('tap');
         $(this).addClass('tap');
+        $('.zhezhao').css({display:'none'});
+        $('.px').css({display:'none'});
     });
     $('.pxx').tap(function(){
         $('.zhezhao').css({display:'none'});
@@ -38,6 +40,7 @@ $(function(){
 
     $('.chongz').tap(function(){
         $('.czmm').removeClass('tap');
+        $('.jiek').val('');
     });
     $('.quxiao').tap(function(){
         $('.zhezhao').css({display:'none'});
