@@ -25,6 +25,8 @@ header img{
     float: left;
 }
 .paixu,.shaixuan{
+    height:2.85rem;
+    line-height: 2.85rem;
     float: right;
     display:inline-block;
     margin-right: 1.3rem;
@@ -311,5 +313,6 @@ footer .flian{
     line-height: 2.85rem;
     padding-left: 3%;
     font-size: 1.2rem;
+    border-bottom: 1px solid #F0F0F0;
 }
 /*-------------排序结束------------------*/
