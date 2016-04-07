@@ -86,8 +86,8 @@ header img{
 .nimg img{
     display:inline-block;
     margin-top: 0.5rem;
-    width: 2.65rem;
-    height:2.65rem;
+    width: 3.2rem;
+    height:3.2rem;
 
 }
 .con{
@@ -99,12 +99,12 @@ header img{
     display:inline-block;
 }
 .contt{
-    font-size: 0.93rem;
+    font-size: 1.2rem;
     color:#4c4c4c;
     float: left;
 }
 .use,.com{
-    font-size: 0.65rem;
+    font-size: 0.8rem;
     color:#b2b2b2;
     float: right;
     margin-left: 0.5rem;
@@ -117,16 +117,16 @@ header img{
     background: #b2b2b2;
 }
 .conp img{
-    width: 3.3rem;
-    height:0.58rem;
+    width: 3.96rem;
+    height:0.7rem;
 }
 .conp span{
     color:#737373;
-    font-size: 0.65rem;
+    font-size: 0.8rem;
 }
 .conx{
     color:#8c8c8c;
-    font-size: 0.65rem;
+    font-size: 0.8rem;
 }
 /*---------------------主体部分结束-------------------------*/
 footer{
@@ -137,6 +137,7 @@ footer{
     left:0;
     z-index: 8888;
     background: #fff;
+    padding-top: 0.4rem;
     border-top:1px solid #ebebeb;
 }
 footer .flian{
@@ -152,7 +153,10 @@ footer .flian{
 .ff span{
     height:50%;
     display:block;
-    font-size: 0.72rem;
+    font-size: 0.83rem;
+}
+.ff i{
+    font-size: 1.2rem;
 }
 
 /*-----------------脚部结束-----------------------*/
